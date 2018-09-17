@@ -1,0 +1,37 @@
+ * {
+          font-family: Georgia, serif;
+        background: #193549;
+      }
+     
+     
+      img{
+         padding: var(--spacing);
+      background: var(--base);
+      
+      }
+      div{
+      	border:  3px solid #99CEE0;
+      	 margin:0 auto;
+          width:520px;
+          position: relative;
+          margin-top: 20px; 
+        
+      }
+    select{
+      width: 120px;
+      height:30px;
+      color: var(--base);
+      background: #202B2F;
+      font-size: 16px;
+    }
+    h2{
+       color: var(--base);
+    }
+    .country{
+      position: relative;
+      margin-right: 50px;
+    }
+    :root {
+      --base: #6CA6A9;
+      --spacing: 10px;
+    }
